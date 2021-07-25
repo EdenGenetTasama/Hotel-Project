@@ -1,5 +1,5 @@
 body {
-    background-image: url(./תמונות/black-2398956.jpg);
+    background-image: url(./image/black-2398956.jpg);
     background-repeat: no-repeat repeat;
     margin: 0;
     width: 100vw !important;
@@ -302,5 +302,4 @@ ul {
             margin: auto;
             display: inline-block;
             width: 100% !important;
-            height: 100% !important;
-        }
+            height: 100% !important; }}

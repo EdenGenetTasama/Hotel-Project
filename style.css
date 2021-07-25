@@ -1,0 +1,219 @@
+body {
+    background-image: url(./תמונות/black-2398956.jpg);
+    background-repeat: no-repeat repeat;
+    margin: 0;
+    width: 100vw !important;
+    text-align: center
+}
+
+/* לוגו של עדן */
+
+.navbar-brand {
+    margin: 0px;
+    padding: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* מרווח בין הגוף לכותרת */
+
+.navbar {
+    padding: 0 !important;
+}
+
+/* כותרות בנאובר */
+
+.navbar-nav {
+    font-weight: bold;
+    width: 60vw;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+/* שורת חיפוש */
+
+.d-flex {
+    margin-left: 50px;
+    height: 40px;
+    margin-top: 5px;;
+}
+
+/* כותרות ספציפיות בnavbar */
+
+.nav-item {
+    padding: 16px;
+
+}
+
+/* navbar עיצוב  */
+
+.container-fluid {
+    font-size: 18px;
+    background-color: rgb(155, 127, 15);
+    justify-content: space-between;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: 5s;
+    transition-timing-function: 5s;
+
+}
+
+
+/* ריחוף מעל הnavbar */
+
+li:hover>a {
+    color: #ede6b9 !important;
+    font-size: 23px;
+}
+
+.gridContainer {
+    width: 95vw;
+    height: 95vh;
+    display: grid;
+    color: cornsilk;
+    grid-template-areas: ' main main main main' ' main main main main' ' main main main main' ' main main main main' ' mainform mainform mainform mainform' ' mainform mainform mainform mainform' ' mainform mainform mainform mainform' 'sidebar1 footer footer footer footer';
+}
+
+
+.firstvideo {
+    width: 90vw;
+    height: 400px;
+    margin: 20px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+/* ריווח בין החלק הראשון לשני  */
+
+.spacebetween {
+    margin: 40px;
+}
+
+/* רשימה של המלונות ותמונות  */
+
+.listOfHotels {
+    display: flex;
+    flex-wrap: wrap;
+    padding:30px;
+    width: 80%;
+margin: 10px;
+margin: auto;
+
+}
+
+ul {
+  
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    gap: 5px;
+justify-content: space-between;
+
+
+
+
+}
+
+ .desingoflist{ 
+
+     width: 33%;
+    flex-wrap: wrap;  
+    justify-content: space-evenly;
+ padding: 15px;
+ margin-left: auto;
+  margin-right: auto;
+ margin: auto; 
+} 
+
+.desingoflist img {
+    border-radius: 10%;
+    
+}
+
+
+.listOfHotels img {
+    width: 50%;
+    height:50%;
+    border: 2px solid black;
+}
+
+.first-section1 {
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.first-section2 {
+    color: rgb(155, 127, 15);
+    font-size: 30px;
+    /* font-weight: bold; */
+}
+
+.whatsappbutton {
+    background-color: #7ACC72;
+    /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-top: 10px !important;
+    width: fit-content;
+    margin: auto;
+    cursor: pointer
+}
+
+.whatsappbutton:hover {
+    color: #dbdfd3 !important;
+    font-size: 16px;
+}
+
+.checkInForm {
+    color: rgb(155, 127, 15);
+    display: inline-block;
+    margin: 5px;
+    padding: 40px;
+    font-size: 25px;
+    width: 90vw;
+    height:500px;
+    border: 3px solid rgb(155, 127, 15);
+} 
+
+.asscheckInForm {
+    display: inline-block;
+
+}
+
+.events {
+    background-color: rgb(155, 127, 15);
+    color: black;
+    /* opacity: 0.8; */
+    margin: 15px;
+    position: relative;
+    right: 1500px;
+    top: 650px;
+    width: 400px;
+    border-radius: 10%;
+}
+
+.lastpageimg {
+    width: 200px !important;
+    height: 100px !important;
+}
+
+#headerpart2 {
+    margin: 15px;
+    background-color: rgb(155, 127, 15);
+    color: black;
+    position: relative;
+    right: 1400px;
+    top: 600px;
+}
+
+#eventsection {
+    display: flex;
+    flex-wrap: wrap;
+}

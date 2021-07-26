@@ -22,12 +22,12 @@ body {
 
 /* כותרות בנאובר */
 
-.navbar-nav {
+/* .navbar-nav {
     font-weight: bold;
-    width: 80vw;
+    width: 80%;
     display: flex;
-    /* justify-content: space-evenly; */
-}
+    /* justify-content: space-evenly; 
+} */
 
 /* שורת חיפוש */
 
@@ -88,11 +88,9 @@ li:hover>a {
 .listOfHotels {
     display: flex;
     flex-wrap: wrap;
-    padding:30px;
+    padding: 30px;
     width: 80%;
-margin: 10px;
-margin: auto;
-
+    margin: auto;
 }
 
 ul {
@@ -101,18 +99,23 @@ ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+  
 }
 
 .desingoflist {
-    width: 33%;
+    background-color:rgb(155, 127, 15) ;
+    width: 30%;
+    height: 55%;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin: 20px;
+    /* align-content: center; */
+    margin: 40px;
     padding: 15px;
     margin-left: auto;
     margin-right: auto;
 }
+
+
 
 .desingoflist img {
     border-radius: 10%;
@@ -160,7 +163,9 @@ ul {
 .checkInForm {
     color: rgb(155, 127, 15);
     display: inline-block;
-    margin: 25px;
+    /* margin: 25px; */
+    margin-top: 20%;
+    margin-bottom: 5%;
     padding: 40px;
     font-size: 25px;
     width: 90vw;
@@ -180,11 +185,12 @@ ul {
 .events {
     background-color: rgb(155, 127, 15);
     color: black;
-    width: 33%;
+    width: 30%;
+    height: 55%;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin: 20px;
-    padding: 35px;
+    padding: 30px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -237,7 +243,6 @@ ul {
     * {
         display: flex;
         flex-direction: column;
-     
     }
     img {
         width: 100%;
@@ -267,39 +272,41 @@ ul {
         width: 100% !important;
         height: 100% !important;
     }
-} 
+}
 
+/* לפטופים קטנים  */
 
-     /* לפטופים קטנים  */
-     @media screen and (max-device-width:1100px) {
-        * {
-            display: flex;
-            flex-direction: column;
-         } 
-         img {
-            width: 100%;
-            height: 100%;
-        }
-        video {
-            width: 100%;
-            height: 100%;
-        }
-        .desingoflist {
-            margin: auto;
-            display: inline-block;
-            width: 100%;
-            height: 100%;
-        }
-        .desingoflist img {
-            width: 100%;
-            height: 100%;
-        }
-        .checkInForm {
-            width: 100% !important;
-            height: 100% !important;
-        }
-        .events {
-            margin: auto;
-            display: inline-block;
-            width: 100% !important;
-            height: 100% !important; }}
+@media screen and (max-device-width:1100px) {
+    * {
+        display: flex;
+        flex-direction: column;
+    }
+    img {
+        width: 100%;
+        height: 100%;
+    }
+    video {
+        width: 100%;
+        height: 100%;
+    }
+    .desingoflist {
+        margin: auto;
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+    }
+    .desingoflist img {
+        width: 100%;
+        height: 100%;
+    }
+    .checkInForm {
+        width: 100% !important;
+        height: 100% !important;
+    }
+    .events {
+        margin: auto;
+        display: inline-block;
+        width: 100% !important;
+        height: 100% !important;
+    }
+}
